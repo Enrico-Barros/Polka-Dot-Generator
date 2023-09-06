@@ -62,7 +62,7 @@ function App() {
           className="dot"
           style={{ left: item.clientX - "17.5", top: item.clientY - "16" }}
         >
-          <img src="./src/assets/react.svg" alt="" />
+          <img src="./src/assets/symbol.svg" alt="" />
         </span>
       ))}
     </div>
