@@ -60,10 +60,8 @@ function App() {
         <span
           key={index}
           className="dot"
-          style={{ left: item.clientX - "17.5", top: item.clientY - "16" }}
-        >
-          <img src="./src/assets/symbol.svg" alt="" />
-        </span>
+          style={{ left: item.clientX - "5", top: item.clientY - "5" }}
+        />
       ))}
     </div>
   );
